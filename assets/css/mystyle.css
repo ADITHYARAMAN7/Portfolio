@@ -1,27 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-
-  /**
-   * colors
-   */
-
-  /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -69,10 +46,6 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-  /**
-   * typography
-   */
-
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
 
@@ -110,14 +83,6 @@
   --transition-2: 0.5s ease-in-out;
 
 }
-
-
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -157,13 +122,6 @@ html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
 
-
-
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .sidebar,
 article {
@@ -1543,12 +1501,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-
-
-/**
- * responsive larger than 768px screen
- */
-
 @media (min-width: 768px) {
 
   /**
@@ -1643,12 +1595,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-
-
-/**
- * responsive larger than 1024px screen
- */
-
 @media (min-width: 1024px) {
 
   /**
@@ -1680,10 +1626,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * MAIN 
-   */
-
   main { margin-bottom: 60px; }
 
   .main-content {
@@ -1692,11 +1634,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin: auto;
   }
 
-
-
-  /**
-   * NAVBAR
-   */
 
   .navbar {
     position: absolute;
@@ -1718,39 +1655,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   .navbar-link { font-weight: var(--fw-500); }
 
 
-
-  /**
-   * ABOUT
-   */
-
-  /* service */
-
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }
 
-  /* testimonials */
 
   .testimonials-item { min-width: calc(50% - 15px); }
 
-  /* clients */
 
   .clients-item { min-width: calc(25% - 38px); }
 
 
-
-  /**
-   * PORTFOLIO
-   */
-
   .project-list { grid-template-columns: repeat(3, 1fr); }
 
-
-
-  /**
-   * BLOG
-   */
 
   .blog-banner-box { height: 230px; }
 
@@ -1760,9 +1678,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-/**
- * responsive larger than 1250px screen
- */
+
 
 @media (min-width: 1250px) {
 
